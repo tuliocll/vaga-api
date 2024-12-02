@@ -41,3 +41,5 @@ app.delete('/vagas/:id', (req, res) => {
 app.listen(port, () => {
     logger.info(`Server running on port ${port}`);
 });
+
+module.exports = app;
